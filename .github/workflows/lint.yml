@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: mfinelli/setup-shfmt@v3
+      - uses: mfinelli/setup-shfmt@v4
       - run: shfmt -d wireguard-install.sh
